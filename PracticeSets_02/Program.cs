@@ -13,7 +13,7 @@ namespace PracticeSets_02
             Console.WriteLine("Let's print the even numbers");
             int even_number = 22;
 
-            for (int i = 1; i < even_number; i += 2)
+            for (int i = 2; i < even_number; i += 2)
             {
                 Console.WriteLine(i);
             }
