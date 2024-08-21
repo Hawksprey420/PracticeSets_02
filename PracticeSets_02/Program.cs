@@ -10,10 +10,10 @@ namespace PracticeSets_02
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Let's print the odd numbers");
-            int odd_number = 20;
+            Console.WriteLine("Let's print the even numbers");
+            int even_number = 22;
 
-            for (int i = 1; i < odd_number; i += 2)
+            for (int i = 1; i < even_number; i += 2)
             {
                 Console.WriteLine(i);
             }
