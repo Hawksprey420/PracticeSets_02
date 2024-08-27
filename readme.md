@@ -1,9 +1,10 @@
-# Practice Sets 02
+# Practice Sets 02 5 to 7 (Asag)
 
 ## Activities
-- Write a program that prints all the even numbers from 1 to 20 using a for loop.
-- Write a program that prints all the odd numbers from 1 to 20 using a for loop.
+5.	Write a program that takes a string as input and outputs the frequency of each character in the string. 
+6.	Write a program that takes a number as input and outputs the sum of its digits. 
+7.	Write a program that takes an array of numbers as input and outputs the sum of the numbers. 
 
 ## Authors
-
+Nestor Jann Asag (main author)
 
