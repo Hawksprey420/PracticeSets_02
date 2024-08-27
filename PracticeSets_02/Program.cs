@@ -10,10 +10,10 @@ namespace PracticeSets_02
     {
         static void Main(string[] args)
         {
-            //Temporary lang to, mamaya ko na ayusin to sa bahay!!
+            
             //5. Write a program that takes a string as input and outputs the frequency of each character in the string. 
 
-            Console.WriteLine("PAKI TYPE ANG WORD NA GUSTO MO!!! BILANGIN KO NA LANG YUNG FREQUENCY NG WORD");
+            Console.WriteLine("Please type in a word.");
 
             string word = Console.ReadLine();
 
