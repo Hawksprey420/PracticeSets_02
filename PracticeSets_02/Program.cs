@@ -11,26 +11,22 @@ namespace PS02_05
         static void Main(string[] args)
         {
             {
-                Console.WriteLine("Enter a character: ");
-                char letter = char.Parse(Console.ReadLine());
+                Console.WriteLine(" Enter a Word: ");
+                string Palindrome = Console.ReadLine();
+                string check = new string(Palindrome.Reverse().ToArray());
 
-
-                if (letter == 'a' || letter == 'e' || letter == 'i' || letter == 'o' || letter == 'u')
+                if (Palindrome.Contains(check))
                 {
-                    Console.WriteLine("is a vowel");
+                    Console.WriteLine("The Word " + Palindrome + " is Palindrome ");
                 }
-                else if (letter == 'b' || letter == 'c' || letter == 'd' || letter == 'f' ||
-                    letter == 'g' || letter == 'h' || letter == 'j' || letter == 'k' || letter == 'l' || letter == 'm' ||
-                    letter == 'n' || letter == 'p' || letter == 'q' || letter == 'r' || letter == 's' || letter == 't' ||
-                    letter == 'v' || letter == 'w' || letter == 'x' || letter == 'y' || letter == 'z')
+                else if (Palindrome.Contains(check))
                 {
-                    Console.WriteLine("is a consonant");
+                    Console.WriteLine("The Word" + Palindrome + " is not Palindrome ");
                 }
                 else
                 {
-                    Console.WriteLine("invalid");
+                    Console.WriteLine("The Word" + Palindrome + " is Invalid ");
                 }
-
             }
         }
     }
