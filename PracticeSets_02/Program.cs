@@ -22,7 +22,6 @@ namespace PracticeSets_02
             {
 
                 //6. Write a program that takes a number as input and outputs the sum of its digits.
-                Console.WriteLine("Practice Set 2: 06");
                 Console.WriteLine("Enter a number, preferably 3 or more digits please");
 
                 int number = int.Parse(Console.ReadLine());
