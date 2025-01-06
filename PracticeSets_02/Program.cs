@@ -57,8 +57,14 @@ namespace PracticeSets_02
                         break;
 
                     case 7:
+                        var WordFreq = new WordFreq();
+                        WordFreq.WordFreq1();
+                        break;
+
+                    case 8:
                         Console.WriteLine("Are you done? Yes or No?");
                         string answer = Console.ReadLine();
+
                         if (answer == "Yes")
                         {
                             Console.WriteLine("Goodbye!");

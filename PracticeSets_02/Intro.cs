@@ -17,7 +17,8 @@ namespace PracticeSets_02
             Console.WriteLine("4. DNA BA ITO OR DSA LITE?");
             Console.WriteLine("5. PS02_05: Character Checker");
             Console.WriteLine("6. Palindrome Checkmate");
-            Console.WriteLine("7. Exit");
+            Console.WriteLine("7. Word Frequency");
+            Console.WriteLine("8. Exit");
         }
     }
 }
