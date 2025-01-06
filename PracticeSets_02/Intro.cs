@@ -8,7 +8,7 @@ namespace PracticeSets_02
 {
     internal class Intro
     {
-        public static void Main (string[] args)
+        public static void Intro1 (string[] args)
         {
             Console.WriteLine("Hello there! Please select a number:");
             Console.WriteLine("1. Odd Numbers");

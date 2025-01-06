@@ -8,5 +8,14 @@ namespace PracticeSets_02
 {
     internal class Odd
     {
+        public static void Oddball (string[] args)
+        {
+            Console.WriteLine("Let's print the odd numbers");
+            int odd_number = 20;
+            for (int i = 1; i < odd_number; i += 2)
+            {
+                Console.WriteLine(i);
+            }
+        }
     }
 }
