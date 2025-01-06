@@ -50,13 +50,22 @@ namespace PracticeSets_02
 
                     case 4:
                         var DSA_lite = new DSA_lite();
-                        DSA_lite.DSA_lite();
+                        DSA_lite.DSA_lite1();
                         break;
                     
                     case 5:
-                        Environment.Exit(0);
-                        break;
+                        Console.WriteLine("Are you done? Yes or No?");
+                        string answer = Console.ReadLine();
+                        if (answer == "Yes")
+                        {
+                            Console.WriteLine("Goodbye!");
+                            return;
+                        }
 
+                        else
+                        {
+                             continue;
+                        }
                 }
             }
         }

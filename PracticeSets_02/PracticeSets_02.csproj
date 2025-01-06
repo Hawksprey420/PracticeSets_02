@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DSA-lite.cs" />
+    <Compile Include="DSA_lite.cs" />
     <Compile Include="SumDigit.cs" />
     <Compile Include="Odd.cs" />
     <Compile Include="SumArray.cs" />
