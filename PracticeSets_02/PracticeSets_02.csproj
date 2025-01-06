@@ -42,8 +42,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DSA_lite.cs" />
+    <Compile Include="PS02_05.cs" />
+    <Compile Include="PS02_06.cs" />
+    <Compile Include="SumDigit.cs" />
+    <Compile Include="Odd.cs" />
+    <Compile Include="SumArray.cs" />
+    <Compile Include="Intro.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WordFreq.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
