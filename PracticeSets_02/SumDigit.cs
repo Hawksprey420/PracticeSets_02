@@ -8,7 +8,7 @@ namespace PracticeSets_02
 {
     internal class SumDigit
     {
-        public static void SumDigit1 (string[] args)
+        public static void SumDigit1 ()
         {
             Console.WriteLine("Hello World");
         }

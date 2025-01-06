@@ -9,7 +9,7 @@ namespace PracticeSets_02
 {
     internal class SumArray
     {
-        public static void Sum_Array (string[] args)
+        public static void Sum_Array ()
         {
             Console.WriteLine("Hello world!");
 
