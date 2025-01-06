@@ -15,7 +15,9 @@ namespace PracticeSets_02
             Console.WriteLine("2. Sum of the Digits");
             Console.WriteLine("3. Sum Array You Are!");
             Console.WriteLine("4. DNA BA ITO OR DSA LITE?");
-            Console.WriteLine("5. Exit");
+            Console.WriteLine("5. PS02_05: Character Checker");
+            Console.WriteLine("6. Palindrome Checkmate");
+            Console.WriteLine("7. Exit");
         }
     }
 }

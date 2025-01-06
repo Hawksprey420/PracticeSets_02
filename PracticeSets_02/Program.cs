@@ -18,19 +18,12 @@ namespace PracticeSets_02
         }
         static void Main(string[] args)
         {
-
-            /*Console.WriteLine("Hello there! Please select a number:");
-            Console.WriteLine("1. Odd Numbers");
-            Console.WriteLine("2. Sum of the Digits");
-            Console.WriteLine("3. Sum Array You Are!");
-            Console.WriteLine("4. DNA BA ITO OR DSA LITE?");
-            Console.WriteLine("5. Exit");*/
-
             while (true)
             {
                 var Intro = new Intro();
-                Intro.Intro1();
+                Intro.Intro1(); LineGeneration();
                 int choice = int.Parse(Console.ReadLine());
+                LineGeneration();
                 switch (choice)
                 {
                     case 1:
@@ -54,6 +47,16 @@ namespace PracticeSets_02
                         break;
                     
                     case 5:
+                        var PS02_05 = new PS02_05();
+                        PS02_05.PS02_05_Function();
+                        break;
+
+                    case 6:
+                        var PS02_06 = new PS02_06();
+                        PS02_06.Palindrome();
+                        break;
+
+                    case 7:
                         Console.WriteLine("Are you done? Yes or No?");
                         string answer = Console.ReadLine();
                         if (answer == "Yes")

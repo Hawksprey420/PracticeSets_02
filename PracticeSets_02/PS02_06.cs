@@ -11,21 +11,17 @@ namespace PracticeSets_02
         public static void Palindrome ()
         {
             {
-                Console.WriteLine(" Enter a Word: ");
+                Console.WriteLine("Enter a Word:");
                 string Palindrome = Console.ReadLine();
                 string check = new string(Palindrome.Reverse().ToArray());
 
-                if (Palindrome.Contains(check))
+                if (Palindrome.Equals(check, StringComparison.OrdinalIgnoreCase))
                 {
-                    Console.WriteLine("The Word " + Palindrome + " is Palindrome ");
-                }
-                else if (Palindrome.Contains(check))
-                {
-                    Console.WriteLine("The Word" + Palindrome + " is not Palindrome ");
+                    Console.WriteLine("The Word " + Palindrome + " is Palindrome.");
                 }
                 else
                 {
-                    Console.WriteLine("The Word" + Palindrome + " is Invalid ");
+                    Console.WriteLine("The Word " + Palindrome + " is not Palindrome.");
                 }
             }
         }
