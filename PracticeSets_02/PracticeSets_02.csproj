@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="DSA_lite.cs" />
     <Compile Include="PS02_05.cs" />
+    <Compile Include="PS02_06.cs" />
     <Compile Include="SumDigit.cs" />
     <Compile Include="Odd.cs" />
     <Compile Include="SumArray.cs" />
