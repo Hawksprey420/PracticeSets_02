@@ -11,7 +11,7 @@
 - Word frequency
 
 ## Authors
-Nestor Jann C. Asag - lead dev
+Nestor Jann C. Asag - lead dev <br>
 Carl De Casto - dev
 
 
